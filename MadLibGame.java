@@ -14,12 +14,15 @@ public class MadLibGame {
         String pronoun = scanner.nextLine();
         System.out.println("Enter a adjective : ");
         String adjective = scanner.nextLine();
+        System.out.println("Enter age : ");
+        int age = scanner.nextLine();
 
         System.out.println("Name : " + name);
         System.out.println("Noun : " + noun);
         System.out.println("Verb : " + verb);
         System.out.println("Pronoun : " + pronoun);
         System.out.println("Adjective : " + adjective);
+        System.out.println("Age : " + age);
 
         scanner.close();
     }
