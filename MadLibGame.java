@@ -18,6 +18,9 @@ public class MadLibGame {
         int age = scanner.nextLine();
         System.out.println("Enter floating point number : ");
         float fn = scanner.nextLine();
+        System.out.println("Enter an integer : ");
+        int integ = scanner.nextLine();
+        
 
         System.out.println("Name : " + name);
         System.out.println("Noun : " + noun);
@@ -26,6 +29,7 @@ public class MadLibGame {
         System.out.println("Adjective : " + adjective);
         System.out.println("Age : " + age);
         System.out.println("Float number : " + fn);
+        System.out.println("Integer : " + integ);
 
         scanner.close();
     }
