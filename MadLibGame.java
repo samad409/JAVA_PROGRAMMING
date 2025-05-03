@@ -14,12 +14,7 @@ public class MadLibGame {
         String pronoun = scanner.nextLine();
         System.out.println("Enter a adjective : ");
         String adjective = scanner.nextLine();
-        System.out.println("Enter age : ");
-        int age = scanner.nextLine();
-        System.out.println("Enter floating point number : ");
-        float fn = scanner.nextLine();
-        System.out.println("Enter an integer : ");
-        int integ = scanner.nextLine();
+        
         
 
         System.out.println("Name : " + name);
@@ -27,9 +22,6 @@ public class MadLibGame {
         System.out.println("Verb : " + verb);
         System.out.println("Pronoun : " + pronoun);
         System.out.println("Adjective : " + adjective);
-        System.out.println("Age : " + age);
-        System.out.println("Float number : " + fn);
-        System.out.println("Integer : " + integ);
 
         scanner.close();
     }
