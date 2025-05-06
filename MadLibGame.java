@@ -17,7 +17,7 @@ public class MadLibGame {
         
         
 
-        //System.out.println("Name : " + name);
+        System.out.println("Name : " + name);
         System.out.println("Noun : " + noun);
         System.out.println("Verb : " + verb);
         System.out.println("Pronoun : " + pronoun);
